@@ -1,3 +1,47 @@
+Instalace
+fetch maku studio projekt
+
+zkus v terminálu php -v, pokud ti to vrátí, že je tam nainstalovaný tak si ok jestli ne tak ideálně nainstaluj homebrew a tam jednim příkazem nainstaluješ i php :)
+
+nejdřív composer instalace
+https://getcomposer.org/download/
+
+pak cd do projektu maku
+tam
+composer install
+
+spustíš docker desktop a pak
+php artisan sail:install
+
+tam vyber mysql
+
+potom ve složce
+./vendor/bin/sail up -d
+
+tim spustíš server
+
+./vendor/bin/sail shell
+
+dostaneš se do terminálu spuštěnýho serveru a tam už stačí
+
+npm install
+npm run dev
+
+
+všechno nastavený, klidně upravuj
+resources/views/welcome.blade.php
+pak to kdyžtak přejmenujeme
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
