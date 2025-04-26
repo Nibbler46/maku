@@ -33,6 +33,10 @@ resources/views/welcome.blade.php
 pak to kdyžtak přejmenujeme
 
 
+jinak stránku najdeš na localhost:80
+
+pokud něco nepůjde, můžem to zprovoznit spolu nebo napiš a zavolej, nějak si rozdělíme ty sekce :D
+
 
 
 
